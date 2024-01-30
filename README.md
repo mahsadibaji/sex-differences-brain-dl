@@ -1,6 +1,6 @@
 # Sex Classification
 
-## Running the training script
+## Training the Model
 To start training the model, navigate to your project directory and run the run_train.py script with the required parameters. Below is the command and parameter explanations:
 ### Command
 `python /scripts/run_train.py
@@ -20,3 +20,10 @@ To start training the model, navigate to your project directory and run the run_
 - source_train_csv (string): The file path to the CSV containing training data. The CSV must have columns: 'filename', 'sex', and 'id'.
 - source_val_csv (string): The file path to the CSV containing validation data. The CSV must have columns: 'filename', 'sex', and 'id'.
 - verbose (boolean): Set to True for verbose logging.
+
+## Testing the model
+
+### Command
+`
+python /scripts/run_test.py --results_dir <path_to_results_dir> --source_test_csv /data/test_data.csv --saved_model_path /pretrained-weights/sfcn_best.pth --verbose <True/False>
+`
