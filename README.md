@@ -3,7 +3,7 @@
 ## Running the training script
 To start training the model, navigate to your project directory and run the run_train.py script with the required parameters. Below is the command and parameter explanations:
 ### Command
-`python run_train.py
+`python /scripts/run_train.py
     --batch_size 16
     --learning_rate 0.01
     --epochs 50
