@@ -1,7 +1,7 @@
 # Sex Classification
 
 ### Source Code Structure
-- Scripts folder contains code for loading data, training, and testing.
+- Scripts folder contains code for loading data, training, and testing. It is recommended to go through the code and fill out place holders according to your needs.
 - pretrained-weights folder contains the optimized trained model used in the paper for reporting the results.
 - saliency-maps folder contains the niftii files of reported saliency maps in the paper.
 - data folder has training, validation, and test sets utilized for model development. Paths within the folder are anonymized, represented by 'XXXX', except for the names of the input data files. Please modify these paths to correspond with the file locations on your system.
