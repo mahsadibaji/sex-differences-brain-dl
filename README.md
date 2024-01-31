@@ -18,7 +18,7 @@ python /scripts/run_train.py --batch_size 16 --learning_rate 0.01 --epochs 50 --
 ```
 
 ### Testing the model
-To start test the model, run the run_test.py script with the required parameters (make sure to specify the directory to save results). Below is the command:
+To test the model, run the run_test.py script with the required parameters (make sure to specify the directory to save results). Below is the command:
 ```
 python /scripts/run_test.py --results_dir <path_to_results_dir> --source_test_csv /data/test_data.csv --saved_model_path /pretrained-weights/sfcn_best.pth --verbose <True/False>
 ```
