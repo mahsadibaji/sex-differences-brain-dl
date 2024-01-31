@@ -1,7 +1,9 @@
 # Sex Classification
 
 ### Source Code Structure
-
+- Scripts folder contains code for loading data, training, and testing.
+- weights folder contains the optimized trained model used in the paper for reporting the results.
+- saliency-maps folder contains the niftii files of reported saliency maps in the paper.
 ### Training the Model
 To start training the model, navigate to your project directory and run the run_train.py script with the required parameters (make sure to specify the directory to save results). Below is the command:
 ```
