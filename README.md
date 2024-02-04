@@ -34,3 +34,6 @@ python /scripts/run_test.py --results_dir <path_to_results_dir> --source_test_cs
 - saved_model_path: The file path to the trained model weights.
 - verbose (boolean): Set to True for verbose logging.
 
+## Saliency Map
+![](https://github.com/mahsadibaji/sex-differences-brain-dl/blob/main/tiv-saliency-map.gif)
+
