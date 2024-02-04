@@ -4,6 +4,7 @@
 - ***scripts*** folder contains code for loading data, training, and testing. It is recommended to go through the code and fill out place holders according to your needs.
 - ***pretrained-weights*** folder contains the optimized trained model used in the paper for reporting the results.
 - ***saliency-maps*** folder contains the niftii files of reported saliency maps in the paper.
+- `requirements.yml` contains package dependencies.
   
 ### Downloading the Data
 - CC359 - [data access](https://www.ccdataset.com/download)
