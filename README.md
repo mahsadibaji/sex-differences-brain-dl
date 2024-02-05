@@ -1,5 +1,6 @@
 # Sex Classification
-
+### Saliency Map
+![](https://github.com/mahsadibaji/sex-differences-brain-dl/blob/main/tiv-saliency-map.gif)
 ### Source Code Structure
 - ***scripts*** folder contains code for loading data, training, and testing. It is recommended to go through the code and fill out place holders according to your needs.
 - ***pretrained-weights*** folder contains the optimized trained model used in the paper for reporting the results.
@@ -33,7 +34,4 @@ python /scripts/run_test.py --results_dir <path_to_results_dir> --source_test_cs
 - source_test_csv (string): The file path to the CSV containing validation data. The CSV must have columns: 'filename', 'sex', and 'id'.
 - saved_model_path: The file path to the trained model weights.
 - verbose (boolean): Set to True for verbose logging.
-
-## Saliency Map
-![](https://github.com/mahsadibaji/sex-differences-brain-dl/blob/main/tiv-saliency-map.gif)
 
