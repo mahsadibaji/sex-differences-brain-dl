@@ -9,6 +9,7 @@
 - `requirements.yml` contains package dependencies.
 
 ### Downloading the Data
+All datasets used in this study are publicly available. Follow the links provided below to request access and download the data accordingly.
 - CC359 - [data access](https://www.ccdataset.com/download)
 - CamCAN - [data access](https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/)
 - ADNI - [data access](https://adni.loni.usc.edu/data-samples/access-data/)
