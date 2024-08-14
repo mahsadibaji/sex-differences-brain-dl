@@ -7,7 +7,7 @@
 - ***pretrained-weights*** folder contains the optimized trained model used in the paper for reporting the results.
 - ***saliency-maps*** folder contains the niftii files of saliency maps showing sex-specific regions identified by DL model. The maps are averaged from maps related to correctly classified samples in the test set.
 - `requirements.yml` contains package dependencies.
-(data-section)=
+
 ### Downloading the Data
 - CC359 - [data access](https://www.ccdataset.com/download)
 - CamCAN - [data access](https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/)
